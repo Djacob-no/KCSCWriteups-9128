@@ -161,7 +161,7 @@ Sometimes the most important debugging skill isn't knowing assembly or memory la
 From first attempt to final solution:
 - `exploit.py` → `direct_test.py` → `deep_scan.py` (learning to parse correctly)
 - `multi_session_aggregator.py` (collect unique characters)  
-- `index_aware_aggregator.py` → `extended_index_aggregator.py` (track indices)
+- `index_aware_aggregator.py` → `extended_index_aggregator.py` (track indices) https://github.com/Djacob-no/KCSCWriteups-9128/blob/main/Scripts/DoitYourself2/extended_index_aggregator.py
 
 Each script was a step in the journey, with the human providing direction and the AI providing the implementation.
 
