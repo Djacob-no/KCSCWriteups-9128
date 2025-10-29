@@ -1,0 +1,182 @@
+{
+  "all_characters": [
+    ")",
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "8",
+    "9",
+    "K",
+    "Q",
+    "S",
+    "U",
+    "]",
+    "_",
+    "`",
+    "a",
+    "c",
+    "e",
+    "f",
+    "h",
+    "i",
+    "m",
+    "n",
+    "r",
+    "t",
+    "y"
+  ],
+  "combined_string": ")01234589KQSU]_`acefhimnrty",
+  "flag_structure": {
+    "K": true,
+    "C": false,
+    "S": true,
+    "{": false,
+    "}": false
+  },
+  "session_results": [
+    {
+      "session": 1,
+      "chars": [
+        "2",
+        "3",
+        "_",
+        "`",
+        "e",
+        "t"
+      ],
+      "new_chars": [
+        "2",
+        "3",
+        "_",
+        "`",
+        "e",
+        "t"
+      ],
+      "metadata": {
+        "session_addr": 140551478483648,
+        "ma_keys": 94914745337664,
+        "reads_used": 40
+      }
+    },
+    {
+      "session": 2,
+      "chars": [
+        "3",
+        "`",
+        "c",
+        "h",
+        "y"
+      ],
+      "new_chars": [
+        "c",
+        "h",
+        "y"
+      ],
+      "metadata": {
+        "session_addr": 140239429343936,
+        "ma_keys": 93956276934464,
+        "reads_used": 40
+      }
+    },
+    {
+      "session": 3,
+      "chars": [
+        "8",
+        "Q",
+        "]",
+        "`",
+        "c",
+        "e",
+        "m",
+        "r"
+      ],
+      "new_chars": [
+        "8",
+        "Q",
+        "]",
+        "m",
+        "r"
+      ],
+      "metadata": {
+        "session_addr": 139987430529728,
+        "ma_keys": 94403546433344,
+        "reads_used": 40
+      }
+    },
+    {
+      "session": 4,
+      "chars": [
+        ")",
+        "1",
+        "9",
+        "_",
+        "`",
+        "a",
+        "e"
+      ],
+      "new_chars": [
+        ")",
+        "1",
+        "9",
+        "a"
+      ],
+      "metadata": {
+        "session_addr": 140625075116736,
+        "ma_keys": 93869061699392,
+        "reads_used": 40
+      }
+    },
+    {
+      "session": 5,
+      "chars": [
+        "0",
+        "4",
+        "5",
+        "U",
+        "_",
+        "`",
+        "a",
+        "i",
+        "n"
+      ],
+      "new_chars": [
+        "0",
+        "4",
+        "5",
+        "U",
+        "i",
+        "n"
+      ],
+      "metadata": {
+        "session_addr": 140003921386176,
+        "ma_keys": 94466092529472,
+        "reads_used": 40
+      }
+    },
+    {
+      "session": 6,
+      "chars": [
+        "3",
+        "K",
+        "S",
+        "_",
+        "`",
+        "f",
+        "r"
+      ],
+      "new_chars": [
+        "K",
+        "S",
+        "f"
+      ],
+      "metadata": {
+        "session_addr": 139734168410816,
+        "ma_keys": 94464126924608,
+        "reads_used": 40
+      }
+    }
+  ]
+}
