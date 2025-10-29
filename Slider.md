@@ -58,7 +58,7 @@ This revealed several interesting functions:
 
 ### Memory Layout Analysis
 
-First i used IDA to look at the structure and saw a fair bit of code however the very start contained an xor and a compare between 2 passwords leading me to believe that this was the only part i needed to focus on. From there i instructed an AI and using objdump, we examined the data sections:
+First i used IDA to look at the structure and saw a fair bit of code, however the very start contained a check passwords function, i focused on that.:
 ```bash
 check_password:
 mov     rax, cs:password1
@@ -75,12 +75,6 @@ This revealed:
 - **password2** (at 0x402838): `1c3c4e9c535d79a3`
 
 ### Understanding the Password Check
-
-We disassembled the `check_password` function:
-
-```bash
-wsl objdump -d --start-address=0x40102c --stop-address=0x40106e slider
-```
 
 The disassembly showed:
 1. Load `password1` into rax
